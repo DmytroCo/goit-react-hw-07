@@ -8,13 +8,13 @@ import { fetchContacts } from '../../redux/contactsOps';
 
 const App = () => {
   const dispatch = useDispatch();
-  
+
   useEffect(() => {
     dispatch(fetchContacts())
   },[dispatch])
   return (
     <div className={styles.div} >
-  <h1 className={styles.h1}>Phonebook</h1>
+  <h1 className={styles.h1}>PHONEBOOK</h1>
           <ContactForm  />
   <SearchBox  />
           <ContactList />
