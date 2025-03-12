@@ -1,0 +1,40 @@
+.button {
+    background-color: #01005F;
+    color: white;
+    border: none;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 12px;
+    transition: background-color 0.3s ease;
+}
+
+.p {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.icon {
+    margin-right: 5px;
+    font-size: 1.2em;
+    vertical-align: middle;
+    margin-right: 5px;
+}
+
+.li {
+    display: flex;
+    list-style-type: none;
+    border: 3px solid;
+    border-color: #01005F;
+    border-radius: 10px;
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+    flex: 1 1 calc(25% - 20px);
+    max-width: 192px;
+    margin: 0 auto;
+}
